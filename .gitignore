@@ -1,0 +1,31 @@
+# STM32CubeIDE build output
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.su
+*.cyclo
+*.list
+*.srec
+
+# IDE metadata (keep .project, .cproject, .mxproject and the .ioc file!)
+.settings/
+.metadata/
+*.launch.bak
+
+# Host test binaries
+test_logic
+test_logic.exe
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Captured data
+logs/
+*.log
