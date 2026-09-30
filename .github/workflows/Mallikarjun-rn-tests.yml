@@ -1,0 +1,17 @@
+  name: Mallikarjun-rn
+
+  on:
+    push:
+    pull_request:
+
+  jobs:
+    test:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v4
+        - name: Build and run hardware-independent logic tests
+          run: |
+            gcc -std=c99 -Wall -Wextra -Iapp tests/test_logic.c \
+                app/alarm_logic.c app/dsp_utils.c app/ntc.c app/fmt_utils.c \
+                -lm -o test_logic
+            ./test_logic
