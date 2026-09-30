@@ -1,6 +1,6 @@
 # Industrial Condition Monitoring System
 
-![host-tests](https://github.com/YOUR-USERNAME/stm32-freertos-condition-monitor/actions/workflows/host-tests.yml/badge.svg)
+![host-tests](https://github.com/Mallikarjun-rn/stm32-freertos-condition-monitor/actions/workflows/host-tests.yml/badge.svg)
 ![MCU](https://img.shields.io/badge/MCU-STM32-blue)
 ![RTOS](https://img.shields.io/badge/RTOS-FreeRTOS-green)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
