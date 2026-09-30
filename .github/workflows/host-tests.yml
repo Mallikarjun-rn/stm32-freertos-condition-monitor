@@ -1,4 +1,4 @@
-  name: Mallikarjun-rn
+  name: host-tests
 
   on:
     push:
